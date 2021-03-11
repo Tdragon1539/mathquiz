@@ -66,7 +66,7 @@ if (answer_turn == "player2") {
     answer_turn= "player2";
     document.getElementById("player_answer").innerHTML= "Answer-Turn: "+ player2;
 }
-document.getElementById("output").innerHTML="";
 
-
+document.getElementById("Equation").value= "";
+document.getElementById("Equation2").value= "";
 }
